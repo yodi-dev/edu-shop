@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
+import Produk from './components/Produk.vue';
 </script>
 
 <template>
@@ -7,7 +8,7 @@ import Navbar from './components/Navbar.vue';
     <Navbar/>
   </header>
   <main>
-    
+    <Produk/>
   </main>
 </template>
 

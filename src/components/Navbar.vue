@@ -15,7 +15,7 @@ nav {
 }
 
 nav img {
-    margin: auto 1rem;
+    margin: auto 1rem auto 2rem;
     height: 4em;
     /* height: auto; */
 }
