@@ -8,6 +8,7 @@
 <style scoped>
 @import url(../assets/base.css);
 nav {
+    background-color: var(--color-background-soft);
     display: flex;
     width: 100vmax;
     height: 15vh;

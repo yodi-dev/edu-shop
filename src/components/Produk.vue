@@ -5,8 +5,9 @@
         </header>
         <article>
             <figure>
-                <img src="" alt="gambar produk...">
-                <figcaption>Rp. 10.000</figcaption>
+                <img src="/src/assets/img/produk.jpg" alt="gambar produk...">
+                <figcaption>penjelasan produk</figcaption>
+                <span>Rp. 10.000</span>
             </figure>
         </article>
     </section>
@@ -24,5 +25,23 @@ header h2 {
     text-align: center;
     font-weight: 500;
     text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+figure {
+    width: 20rem;
+    border: solid 1px var(--color-border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+figure img {
+    height: 15rem;
+}
+
+figure span {
+    font-weight: 500;
 }
 </style>
