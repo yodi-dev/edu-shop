@@ -6,23 +6,22 @@
 </template>
 
 <style scoped>
+@import url(../assets/base.css);
 nav {
     display: flex;
     width: 100vmax;
     height: 15vh;
-    /* padding: 0 auto; */
-    background-color: #ffeaa7;
+    border-bottom: solid 1px var(--color-border);
 }
 
 nav img {
     margin: auto 1rem auto 2rem;
     height: 4em;
-    /* height: auto; */
 }
 
 nav h1 {
     margin: auto 0;
-    color: #00b894;
+    color: var(--color-heading);
     font-weight: bold;
 }
 </style>

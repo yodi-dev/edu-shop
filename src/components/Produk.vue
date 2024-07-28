@@ -17,15 +17,12 @@
 @import '../assets/base.css';
 
 section {
-    background-color: #f5f6fa;
     padding: 2rem;
 }
 header h2 {
+    color: var(--color-heading);
     text-align: center;
     font-weight: 500;
     text-transform: uppercase;
-    /* margin: 2rem; */
-
-
 }
 </style>
