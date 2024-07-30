@@ -41,7 +41,7 @@ const app = createApp({
                 <figure>
                     <img :src="product.photo" alt="gambar produk...">
                     <figcaption>{{ product.name }}</figcaption>
-                    <span>{{ product.price }}</span>
+                    <span>Rp. {{ product.price }}</span>
                 </figure>
             </div>
         </article>
@@ -97,7 +97,7 @@ article {
 figure {
     margin: 1rem 0;
     width: 17rem;
-    /* border: solid 1px var(--color-border); */
+    border-bottom: solid 2px var(--color-border);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,6 +106,13 @@ figure {
 
 figure img {
     height: 15rem;
+    border-radius: 1em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+figure figcaption {
+    text-transform: capitalize;
+    margin: 1em 0 0 0;
 }
 
 figure span {
