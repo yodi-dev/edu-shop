@@ -10,7 +10,6 @@
 nav {
     background-color: var(--color-background-soft);
     display: flex;
-    width: 100vmax;
     height: 15vh;
     border-bottom: solid 1px var(--color-border);
 }
